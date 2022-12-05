@@ -256,7 +256,7 @@
     "publicIPAddressType": "Dynamic",
     "virtualNetworkName": "[if(not(empty(parameters('existingVirtualNetworkName'))), parameters('existingVirtualNetworkName'), 'solace-vnet')]",
     "subnetName": "[if(not(empty(parameters('existingSubnetName'))), parameters('existingSubnetName'), 'solace-subnet')]",
-    "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
+    "subnetRef": "[resourceId('r400gd91001','Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "nicName": "Nicd",
     "numberOfNodes": {
       "HighAvailability": 3,
