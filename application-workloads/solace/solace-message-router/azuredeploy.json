@@ -647,7 +647,7 @@
         "networkProfile": {
           "networkInterfaces": [
             {
-              "id": "/subscriptions/a9bab293-74f5-4442-bca1-5ba25628bf86/resourceGroups/r400gd91001/providers/Microsoft.Network/networkInterfaces/PublicNicd0"
+              "id": "/subscriptions/a9bab293-74f5-4442-bca1-5ba25628bf86/resourceGroups/r400gd91001/providers/Microsoft.Network/networkInterfaces/InternalNicd0"
             }
           ]
         }
